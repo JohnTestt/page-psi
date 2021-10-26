@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: linear-gradient(114deg, #f1f0f7, #9b63f796);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    
+    background-color: white;
+   
+}
+
+.navegacao ul {
+    display: flex;
+    
+}
+
+.flex-item  {
+    padding: 28px;
+    list-style-type: none;
+    
+    
+}
+
+.navegacao  a {
+    text-decoration: none;
+   color:  blueviolet;
+    
+    
+}
+
+.navegacao a:hover {
+    border: solid rgb(155, 134, 231) 3px;
+    background-color: rgb(155, 134, 231);
+    color: white;
+
+    border-radius: 8px;
+    
+    
+   
+}
+
+.conteudo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    
+  
+    max-width: 600px;
+    margin: 50px;
+    padding: 25px;
+    
+    
+}
+
+.img1 .img3{
+    
+    max-width: 700px;
+    min-height: 400px;
+    padding-top: 80px;
+    
+}
+
+h1, h2, h4 {
+    padding-bottom: 15px;
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h3 {
+    color: white;
+}
+
+p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+.botao {
+    
+   margin-top: 20px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    padding: 8px;
+    height: 30px;
+    width: 200px;
+    margin-left: 125px;
+  
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.botao:hover{
+    transform: scale(1.08);
+    
+}
+
+
+.rodape-inicial{
+    text-align: center;
+    background-color: blueviolet;
+    min-height: 50px;
+    margin-top: 50px;
+    padding: 25px;
+   
+
+}
+
+.rodape-inicial img{
+    max-height: 50px;
+}
+.img2{
+    max-width: 340px;
+    border-radius: 80px;
+    opacity: 0.7;
+}
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    min-height: 40px;
+
+}
+
+.rodape i{
+   
+    padding: 8px;
+    min-width: 100px;
+    font-size: 26px;
+    margin-left: 50px;
+    color: white;
+    
+}
+
+.rodape img{
+    
+    
+    min-width: 120px;
+    max-height: 40px
+
+}
+
+
+@media (max-width:992px) {
+    .conteudo{
+        flex-direction: column;
+        margin-top: 5px;
+        margin: auto;
+        padding: 5px;
+        
+        
+    }
+    .item {
+        flex-direction: column;
+        margin: auto; 
+    
+    }
+
+    .item p{
+       width: 100%;
+       margin: auto;
+       
+    }
+    .img1 .img2 .img3 {
+        width: 50%;
+        margin:auto;
+    }
+    .rodape-inicial {
+       min-width: 680px;
+       text-align: center;
+       margin: auto;
+        
+    }
+    .botao {
+        margin-top: 15px;
+    }
+    .rodape{
+        justify-content: space-between;
+        
+    }
+    
+}
+
+
+
+
